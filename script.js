@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Display a message when the secret word is clicked
   function showMessage2() {
     const message = document.createElement('p');
-    message.textContent = 'One of the mages is not what they seem.';
+    message.textContent = 'One of the magi are not what they seem.';
     document.body.appendChild(message);
     document.querySelector('#secret-word').removeEventListener('click', showMessage2);
   }
